@@ -1,8 +1,14 @@
-== Simple CRUD MVC webapp with Sinatra
+## Simple CRUD MVC webapp with Sinatra
 
-=== Install :
+The webapp is in french.
+Programmation orientée objet (POO / OOP)
 
-clone, move to the new folder in Terminal, bundle install and type $ shotgun -p 4567 <br>
+### Install :
+
+clone, move to the new folder in Terminal, `bundle install` and type `$ shotgun -p 4567` <br>
 This will start a local development server that doesn't need to restart.<br>
 Then open your favorite browser and go to localhost:4567<br>
-4567 is the recommended port to use with Sinatra.
+(4567 is the recommended port to use with Sinatra)<br>
+<br>
+Tous les ragots sont sur la homepage.<br>
+Tu peux accéder à une page dynamique pour chaque ragot en allant sur localhost:4567/profile/1 (2, 3...)
