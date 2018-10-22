@@ -1,0 +1,19 @@
+
+<html>
+  <head>
+    <title>The Gossip Project</title>
+  </head>
+  <body>
+    <h1>Par ici les ragots !</h1>
+    <p>La liste des ragots arrive bientôt!</p>
+    <p><a href="/gossips/new/">clique ici pour ajouter un ragot!</a></p>
+
+    <% gossips.each do |gossip| %>
+      <p>
+        <%= gossip.author %><br/>
+        <%= gossip.content %>
+      </p>
+    <% end %>
+
+  </body>
+</html>
